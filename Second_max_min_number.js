@@ -16,7 +16,6 @@ for (i=0;i<=9;i++)
         temp=array[i];
         array[i]=array[j];
         array[j]=temp;
-        
     }
     }
 }

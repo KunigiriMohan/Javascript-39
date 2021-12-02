@@ -42,21 +42,45 @@ while(count1<=9&&count2<=9&&count3<=9&&count4<=9&&count5<=9&&count6<=9)
     }
 }
 
-if (numberOne.size==9){
-    console.log("Number 1 reached 10 times")
+
+var maximum =Math.max(count1,count2,count3,count4,count5,count6);
+
+if (numberOne.size==maximum){
+    console.log("Number 1 reached max times")
 }
-else if (numberTwo.size==9){
-    console.log("Number 2 reached 10 times")
+else if (numberTwo.size==maximum){
+    console.log("Number 2 reached maximum times")
 }
-else if (numberThree.size==9){
-    console.log("Number 3 reached 10 times")
+else if (numberThree.size==maximum){
+    console.log("Number 3 reached maximum times")
 }
-else if (numberFour.size==9){
-    console.log("Number 4 reached 10 times")
+else if (numberFour.size==maximum){
+    console.log("Number 4 reached maximum times")
 }
-else if (numberFive.size==9){
-    console.log("Number 5 reached 10 times")
+else if (numberFive.size==maximum){
+    console.log("Number 5 reached maximum times")
 }
-else if (numberSix.size=9){
-    console.log("Number 6 reached 10 times")
+else if (numberSix.size=maximum){
+    console.log("Number 6 reached maximum times")
+}
+
+var minimum =Math.min(count1,count2,count3,count4,count5,count6);
+
+if (numberOne.size==minimum){
+    console.log("Number 1 reached minimum times")
+}
+else if (numberTwo.size==minimum){
+    console.log("Number 2 reached minimum times")
+}
+else if (numberThree.size==minimum){
+    console.log("Number 3 reached minimum times")
+}
+else if (numberFour.size==minimum){
+    console.log("Number 4 reached minimum times")
+}
+else if (numberFive.size==minimum){
+    console.log("Number 5 reached minimum times")
+}
+else if (numberSix.size=minimum){
+    console.log("Number 6 reached minimum times")
 }
